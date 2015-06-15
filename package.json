@@ -1,0 +1,20 @@
+{
+  "name": "Hackathon2",
+  "version": "0.0.1",
+  "description": "",
+  "main": " ",
+  "scripts": {
+    "test": " "
+  },
+  "repository": {
+    "type": "git",
+    "url": " "
+  },
+  "keywords": [],
+  "author": "",
+  "license": " ",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "express": "^4.12.4"
+  }
+}
