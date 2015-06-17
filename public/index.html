@@ -1,3 +1,92 @@
 <html>
-<body>index.html</body>
+	<head>
+		<link rel="stylesheet" type="text/css" href="/css/vendor/bootstrap/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="/css/global/global.css">
+		<link rel="stylesheet" type="text/css" href="/css/header/header.css">
+		<link rel="stylesheet" type="text/css" href="/css/global/footer.css">
+	</head>
+
+	<body>
+
+	<div ng-app='myApp'>
+		<div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-3" ng-click="isCollapsed = !isCollapsed">
+              <span class="sr-only">Toggle navigation</span>
+              <span>Menu</span>
+            </button>
+            <a href="/content/hackathon/en_US/reservation.html"><img src="https://www.alamo.com/feo-cdn/V/O/nLYxUblG4.webp"></a>
+          </div>
+          <nav class="hidden-xs">
+            <ul class="nav navbar-nav">
+              <li class="reserve"><a href="/content/hackathon/en_US/reservation.html">Reserve</a></li>
+              <li><a href="#">Deals</a></li>
+              <li><a href="#">Log In</a></li>
+              <li><a href="#">Online Check-In</a></li>
+              <li><a href="#">Cars</a></li>
+              <li><a href="#">Locations</a></li>
+            </ul>
+          </nav>
+          <nav class="visible-xs" collapse="!isCollapsed">
+              <ul class="nav navbar-nav">
+                  <li><a href="/content/hackathon/en_US/reservation.html" ng-click="isCollapsed = !isCollapsed">Reservations</a></li>
+                  <li><a href="#" ng-click="isCollapsed = !isCollapsed">Deals</a></li>
+                  <li><a href="#" ng-click="isCollapsed = !isCollapsed">Alamo Insiders</a></li>
+                  <li><a href="#" ng-click="isCollapsed = !isCollapsed">Online Check-In</a></li>
+                  <li><a href="#" ng-click="isCollapsed = !isCollapsed">Cars</a></li>
+                  <li><a href="#" ng-click="isCollapsed = !isCollapsed">Locations</a></li>
+              </ul>
+          </nav>
+        </div>
+      </div>
+		</div>
+
+		<div class="row">
+			<h1 class="col-md-12">Tell Us About Your Trip</h1>
+			<form class="step1" name="step1" ng-controller="step1">
+			
+					<div ui-view class="col-sm-12 col-md-4">
+					</div>
+					<div ng-show="state.current.name === 'step1.error'">
+							<button type="button" ng-click="submit()" class="btn btn-block btn-primary">continue</button>
+					</div>
+			</form>
+		</div>
+		
+		<footer ng-app="resApp">
+			<h4 id="slideHeader">Rental Summary
+				<i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+				<ul>
+				 <li class="complete">1</li>
+				 <li>2</li>
+				 <li>3</li>
+				 <li>4</li>
+				</ul>
+
+			</h4>
+		</footer>
+		
+		<div ng-hide="state.current.name === 'step5'" class="nav-footer navbar-fixed-bottom" ng-controller="footerNav">
+			<div class="footer-content navigation" ng-class="{on: displayFooter}">
+					<section>
+			<div class="footer-container" ng-click="toggleFooter()"> 
+				<h4>Rental Summary</h4>
+			</div>
+				<aside class="footer-steps">
+				<button ng-class="{completed: navigation.steps.stepOne.loaded, inactive: !navigation.steps.stepOne.loaded, current: state.current.name.indexOf('step1') > -1}" ng-click="goToStep('step1.where', $event)" href="#">1</button>
+				
+						<button ng-class="{completed: navigation.steps.stepTwo.loaded, inactive: !navigation.steps.stepTwo.loaded, current: state.current.name === 'step2'}" ng-click="goToStep('step2', $event)" href="#">2</button>
+						
+						<button ng-class="{completed: navigation.steps.stepThree.loaded, inactive: !navigation.steps.stepThree.loaded, current: state.current.name === 'step3'}" ng-click="goToStep('step3', $event)" href="#">3</button>
+						
+						<button ng-class="{completed: navigation.steps.stepFour.loaded, inactive: !navigation.steps.stepFour.loaded, current: state.current.name === 'step4'}" ng-click="goToStep('step4', $event)" href="#">4</button>
+					</aside>
+					</section>
+			</div>
+		</div>
+	</div>
+		
+	</body>
 </html>
