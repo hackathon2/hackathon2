@@ -1,7 +1,4 @@
 .when .timePicker {
-	margin-top: -34px;
-}
-
-.when .timePicker .form-control {
-  padding: 0; 
-}
+  margin-top: -34px; }
+  .when .timePicker .form-control {
+    padding: 0; }
