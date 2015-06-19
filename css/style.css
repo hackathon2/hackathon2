@@ -1,0 +1,402 @@
+body {
+  background-color: #fefefe;
+}
+
+p {
+  color: #555;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+}
+
+h3 {
+  color: #555;
+}
+
+a {
+  color: #0060aa;
+}
+
+.well {
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.bottomSpacer {
+  margin-bottom: 20px !important;
+}
+
+/* FORMS */
+.form-control, .btn {
+  border-radius: 0px;
+}
+
+label {
+  color: #777;
+}
+
+.btn-primary {
+  background-color: #0060aa;
+}
+
+.btn-primary:hover {
+  background-color: #034170;
+}
+
+/* Contextual backgrounds */
+.server-message.fixed {
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 15px;
+  right: 15px;
+  z-index: 100;
+}
+
+.bg-success,
+.bg-danger {
+  padding: 8px 15px;
+  background-position: 20px 13px;
+  position: relative;
+}
+
+.bg-danger {
+  border-bottom: 1px solid #ffa9a4;
+}
+
+.bg-success {
+  border-bottom: 1px solid #c1dcb6;
+}
+
+.dismiss {
+  border: 0;
+  cursor: pointer;
+  height: 24px;
+  margin: -12px 0 0 0;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  width: 24px;
+}
+
+.bg-danger .dismiss {
+  background: url("/etc/designs/images/hackathon/error-close-icons_sticky.png") no-repeat center center transparent;
+}
+
+.bg-success .dismiss {
+  background: url("/etc/designs/images/hackathon/success-close-icons_sticky.png") no-repeat center center transparent;
+}
+
+.server-message div {
+  line-height: 24px;
+  padding-right: 70px;
+}
+
+body {
+  padding-top: 67px;
+}
+
+.navbar {
+  background-color: #0060aa;
+  padding: 5px;
+  border: none;
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+.hidden-xs .navbar-nav {
+  float: right;
+}
+
+.navbar-toggle {
+  border-color: #ddd;
+  color: #ddd;
+}
+
+.visible-xs .nav > li {
+  border-bottom: 1px solid #999;
+}
+
+.navbar-nav > li > a,
+.navbar-nav > a {
+  color: #ddd;
+}
+
+.navbar-nav a:hover,
+.navbar-nav a:focus,
+.navbar-nav a:active {
+  color: #0060aa;
+  background: #333;
+}
+
+/* navbar icons
+.hidden-xs li.reserve {
+  background: url("/etc/designs/images/hackathon/car_seat.png") no-repeat center center;
+}
+*/
+footer {
+  background: #0061aa;
+  width: 100%;
+}
+
+.footer-content {
+  margin: 0 auto;
+  min-height: 56px;
+  width: 90%;
+}
+
+.footer-content:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.footer-content h4 {
+  color: #ffffff;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 10px 0;
+}
+
+.summary-container {
+  float: left;
+}
+
+.summary-container dl {
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin-top: 0;
+}
+
+.summary-container dt:first-child {
+  margin-top: 0;
+}
+
+.summary-container dt {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.summary-container dd {
+  margin: 0;
+}
+
+.footer-steps,
+.footer-control {
+  display: inline-block;
+  float: right;
+  margin: 10px 0;
+}
+
+.footer-control {
+  margin-left: 50px;
+}
+
+.footer-steps a:link {
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  color: #ffffff;
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  width: 32px;
+}
+
+.footer-control button.open {
+  background: transparent;
+  border-bottom: 24px solid #ffffff;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 0;
+  cursor: pointer;
+  height: 0;
+  padding: 0;
+  width: 0;
+}
+
+.footer-control button.closed {
+  background: transparent;
+  border-bottom: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 24px solid #ffffff;
+  cursor: pointer;
+  height: 0;
+  padding: 0;
+  width: 0;
+}
+
+/* Should the body style be moved to the global.css? */
+body {
+  padding-bottom: 67px;
+}
+
+.footer-steps button:focus {
+  outline: 0;
+}
+
+.nav-footer {
+  cursor: pointer;
+}
+
+.footer-content div.footer-container {
+  background: #0061aa url("/etc/designs/images/hackathon/ico-footer-closed.gif") no-repeat 5px center;
+  min-height: 56px;
+  float: left;
+  padding-left: 30px;
+  width: 62%;
+}
+
+.footer-content.on div.footer-container {
+  background: #0061aa url("/etc/designs/images/hackathon/ico-footer-open.gif") no-repeat 5px center;
+}
+
+.footer-content section {
+  background: #0061aa;
+  margin: 0 auto;
+  min-height: 56px;
+  width: 100%;
+}
+
+.footer-content h4 {
+  color: #fefefe;
+  display: inline-block;
+  line-height: 34px;
+}
+
+.footer-steps,
+.footer-control {
+  display: inline-block;
+  float: right;
+  margin: 10px 10px 10px 0;
+}
+
+.footer-control {
+  margin-left: 50px;
+}
+
+.footer-steps button {
+  background: transparent;
+  border-radius: 50%;
+  color: #fffa00;
+  display: inline-block;
+  height: 32px;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  width: 32px;
+}
+
+.footer-steps .current {
+  border: 2px solid #fffa00 !important;
+  color: #fffa00 !important;
+}
+
+.footer-steps .completed {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.footer-steps .inactive {
+  border: 2px solid #cccccc;
+  color: #cccccc;
+  opacity: .2;
+}
+
+.panel-group .panel,
+.panel-default,
+.panel {
+  border: none;
+  border-radius: 0;
+  border-color: transparent;
+  background: transparent;
+  box-shadow: none;
+}
+
+.panel-group .panel-default .panel-heading {
+  background: #0061aa;
+  border-top: 1px solid #999;
+  color: #fefefe;
+  width: 100%;
+}
+
+.panel-group .panel-default .panel-heading + .panel-collapse .panel-body {
+  border-top: none;
+  color: #fefefe;
+  margin: 0 auto;
+  padding: 10px 0;
+  width: 90%;
+}
+
+.panel-collapse {
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+}
+
+.panel-group .panel + .panel {
+  margin-top: 0;
+}
+
+.panel-group {
+  margin-bottom: 0;
+  clear: both;
+}
+
+.panel-group a.edit,
+.panel-group a.edit:hover {
+  color: #ccc;
+  float: right;
+}
+
+.panel-title {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.panel-heading {
+  padding: 10px 0;
+}
+
+.panel-group p {
+  color: #fefefe;
+  margin: 0;
+}
+
+.panel-group .panelSubHeading {
+  font-weight: bold;
+}
+
+/*
+.panel-default  .panel-title {
+  background: transparent url('/etc/designs/images/hackathon/ico-footer-closed.gif') no-repeat 5px center;
+}
+.panel-default.active{
+  background: transparent url('/etc/designs/images/hackathon/ico-footer-open.gif') no-repeat 5px center;
+}
+*/
+.accordion-toggle {
+  width: 100%;
+  display: block;
+}
+
+.accordion-toggle:hover {
+  text-decoration: none;
+}
+
+.when .timePicker {
+  margin-top: -34px;
+}
+
+.when .timePicker .form-control {
+  padding: 0;
+}

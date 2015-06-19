@@ -1,0 +1,94 @@
+body {
+  background-color: #fefefe;
+}
+p {
+  color: #555;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+}
+
+h3 {
+  color: #555;
+}
+
+a {
+  color: #0060aa;
+}
+
+.well {
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.bottomSpacer {
+  margin-bottom: 20px !important;
+}
+
+/* FORMS */
+.form-control, .btn {
+  border-radius: 0px;
+}
+
+label {
+  color: #777;
+}
+
+.btn-primary {
+  background-color: #0060aa;
+}
+
+.btn-primary:hover {
+  background-color: #034170;
+}
+
+/* Contextual backgrounds */
+.server-message.fixed {
+  margin:0;
+  position:fixed;
+  top:0;
+  left: 15px;
+  right: 15px;
+  z-index:100;
+}
+
+.bg-success,
+.bg-danger  {
+  padding: 8px 15px;
+  background-position: 20px 13px;
+  position: relative;
+}
+
+.bg-danger {
+  border-bottom:1px solid #ffa9a4;
+}
+
+.bg-success {
+  border-bottom:1px solid #c1dcb6;
+}
+
+.dismiss {
+  border:0;
+  cursor:pointer;
+  height:24px;
+  margin:-12px 0 0 0;
+  position:absolute;
+  right:20px;
+  top:50%;
+  width:24px;
+}
+
+.bg-danger .dismiss {
+  background:url("/etc/designs/images/hackathon/error-close-icons_sticky.png") no-repeat center center transparent;
+}
+
+.bg-success .dismiss {
+  background:url("/etc/designs/images/hackathon/success-close-icons_sticky.png") no-repeat center center transparent;
+}
+
+.server-message div {
+  line-height:24px;
+  padding-right:70px;
+}
