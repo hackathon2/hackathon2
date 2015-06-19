@@ -1,0 +1,44 @@
+body {
+  padding-top: 67px;
+}
+
+.navbar {
+  background-color: #0060aa;
+  padding: 5px;
+  border: none;
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+.hidden-xs .navbar-nav {
+  float: right;
+}
+
+.navbar-toggle {
+  border-color: #ddd;
+  color: #ddd;
+}
+
+.visible-xs .nav > li {
+  border-bottom: 1px solid #999;
+}
+
+.navbar-nav {
+  > {
+    li > a, a {
+      color: #ddd;
+    }
+  }
+  a {
+    &:hover, &:focus, &:active {
+      color: #0060aa;
+      background: #333;
+    }
+  }
+}
+
+/* navbar icons
+.hidden-xs li.reserve {
+  background: url("/etc/designs/images/hackathon/car_seat.png") no-repeat center center;
+}
+*/
