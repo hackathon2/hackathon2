@@ -1,20 +1,16 @@
 body {
-  background-color: #fefefe;
+  background-color: $offWhite;
 }
-p {
-  color: #555;
+p, h3{
+  color: $grey5;
 }
 
 h1, h2, h3, h4 {
   font-weight: bold;
 }
 
-h3 {
-  color: #555;
-}
-
 a {
-  color: #0060aa;
+  color: $blue;
 }
 
 .well {
@@ -33,15 +29,15 @@ a {
 }
 
 label {
-  color: #777;
+  color: $grey7;
 }
 
 .btn-primary {
-  background-color: #0060aa;
+  background-color: $blue;
 }
 
 .btn-primary:hover {
-  background-color: #034170;
+  background-color: $blueDark;
 }
 
 /* Contextual backgrounds */
@@ -62,11 +58,11 @@ label {
 }
 
 .bg-danger {
-  border-bottom:1px solid #ffa9a4;
+  border-bottom:1px solid $pink;
 }
 
 .bg-success {
-  border-bottom:1px solid #c1dcb6;
+  border-bottom:1px solid $green;
 }
 
 .dismiss {

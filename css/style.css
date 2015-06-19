@@ -2,16 +2,12 @@ body {
   background-color: #fefefe;
 }
 
-p {
-  color: #555;
+p, h3 {
+  color: #555555;
 }
 
 h1, h2, h3, h4 {
   font-weight: bold;
-}
-
-h3 {
-  color: #555;
 }
 
 a {
@@ -34,7 +30,7 @@ a {
 }
 
 label {
-  color: #777;
+  color: #777777;
 }
 
 .btn-primary {
@@ -111,31 +107,22 @@ body {
 }
 
 .navbar-toggle {
-  border-color: #ddd;
-  color: #ddd;
+  border-color: #dddddd;
+  color: #dddddd;
 }
 
 .visible-xs .nav > li {
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #999999;
 }
 
-.navbar-nav > li > a,
-.navbar-nav > a {
-  color: #ddd;
+.navbar-nav > li > a, .navbar-nav > a {
+  color: #dddddd;
 }
-
-.navbar-nav a:hover,
-.navbar-nav a:focus,
-.navbar-nav a:active {
+.navbar-nav a:hover, .navbar-nav a:focus, .navbar-nav a:active {
   color: #0060aa;
-  background: #333;
+  background: #333333;
 }
 
-/* navbar icons
-.hidden-xs li.reserve {
-  background: url("/etc/designs/images/hackathon/car_seat.png") no-repeat center center;
-}
-*/
 footer {
   background: #0061aa;
   width: 100%;
@@ -146,7 +133,6 @@ footer {
   min-height: 56px;
   width: 90%;
 }
-
 .footer-content:after {
   content: ".";
   display: block;
@@ -154,7 +140,6 @@ footer {
   clear: both;
   visibility: hidden;
 }
-
 .footer-content h4 {
   color: #ffffff;
   display: inline-block;
@@ -167,34 +152,32 @@ footer {
 .summary-container {
   float: left;
 }
-
 .summary-container dl {
   color: #ffffff;
   font-family: Arial, sans-serif;
   margin-top: 0;
 }
-
-.summary-container dt:first-child {
-  margin-top: 0;
-}
-
 .summary-container dt {
   font-weight: bold;
   margin-top: 10px;
 }
-
+.summary-container dt:first-child {
+  margin-top: 0;
+}
 .summary-container dd {
   margin: 0;
 }
 
-.footer-steps,
-.footer-control {
+.footer-steps {
   display: inline-block;
   float: right;
   margin: 10px 0;
 }
 
 .footer-control {
+  display: inline-block;
+  float: right;
+  margin: 10px 0;
   margin-left: 50px;
 }
 
@@ -222,7 +205,6 @@ footer {
   padding: 0;
   width: 0;
 }
-
 .footer-control button.closed {
   background: transparent;
   border-bottom: 0;
@@ -249,38 +231,37 @@ body {
 }
 
 .footer-content div.footer-container {
-  background: #0061aa url("/etc/designs/images/hackathon/ico-footer-closed.gif") no-repeat 5px center;
+  background: #0060aa url("/etc/designs/images/hackathon/ico-footer-closed.gif") no-repeat 5px center;
   min-height: 56px;
   float: left;
   padding-left: 30px;
   width: 62%;
 }
-
 .footer-content.on div.footer-container {
-  background: #0061aa url("/etc/designs/images/hackathon/ico-footer-open.gif") no-repeat 5px center;
+  background: #0060aa url("/etc/designs/images/hackathon/ico-footer-open.gif") no-repeat 5px center;
 }
-
 .footer-content section {
-  background: #0061aa;
+  background: #0060aa;
   margin: 0 auto;
   min-height: 56px;
   width: 100%;
 }
-
 .footer-content h4 {
   color: #fefefe;
   display: inline-block;
   line-height: 34px;
 }
 
-.footer-steps,
-.footer-control {
+.footer-steps {
   display: inline-block;
   float: right;
   margin: 10px 10px 10px 0;
 }
 
 .footer-control {
+  display: inline-block;
+  float: right;
+  margin: 10px 10px 10px 0;
   margin-left: 50px;
 }
 
@@ -295,27 +276,22 @@ body {
   text-decoration: none;
   width: 32px;
 }
-
 .footer-steps .current {
   border: 2px solid #fffa00 !important;
   color: #fffa00 !important;
 }
-
 .footer-steps .completed {
-  border: 2px solid #ffffff;
-  color: #ffffff;
+  border: 2px solid white;
+  color: white;
   cursor: pointer;
 }
-
 .footer-steps .inactive {
   border: 2px solid #cccccc;
   color: #cccccc;
   opacity: .2;
 }
 
-.panel-group .panel,
-.panel-default,
-.panel {
+.panel-group .panel, .panel-default, .panel {
   border: none;
   border-radius: 0;
   border-color: transparent;
@@ -324,12 +300,11 @@ body {
 }
 
 .panel-group .panel-default .panel-heading {
-  background: #0061aa;
-  border-top: 1px solid #999;
+  background: #0060aa;
+  border-top: 1px solid #999999;
   color: #fefefe;
   width: 100%;
 }
-
 .panel-group .panel-default .panel-heading + .panel-collapse .panel-body {
   border-top: none;
   color: #fefefe;
@@ -343,18 +318,19 @@ body {
   width: 100%;
 }
 
-.panel-group .panel + .panel {
-  margin-top: 0;
-}
-
 .panel-group {
   margin-bottom: 0;
   clear: both;
 }
-
-.panel-group a.edit,
+.panel-group .panel + .panel {
+  margin-top: 0;
+}
+.panel-group a.edit {
+  color: #cccccc;
+  float: right;
+}
 .panel-group a.edit:hover {
-  color: #ccc;
+  color: #cccccc;
   float: right;
 }
 
@@ -371,24 +347,14 @@ body {
   color: #fefefe;
   margin: 0;
 }
-
 .panel-group .panelSubHeading {
   font-weight: bold;
 }
 
-/*
-.panel-default  .panel-title {
-  background: transparent url('/etc/designs/images/hackathon/ico-footer-closed.gif') no-repeat 5px center;
-}
-.panel-default.active{
-  background: transparent url('/etc/designs/images/hackathon/ico-footer-open.gif') no-repeat 5px center;
-}
-*/
 .accordion-toggle {
   width: 100%;
   display: block;
 }
-
 .accordion-toggle:hover {
   text-decoration: none;
 }
