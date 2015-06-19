@@ -14,8 +14,13 @@
   "author": "Nick Dozier",
   "license": " ",
   "devDependencies": {
+    "autoprefixer": "^5.2.0",
+    "autoprefixer-core": "^5.2.0",
     "express": "^4.12.4",
     "gulp": "^3.9.0",
-    "gulp-sass": "^2.0.1"
+    "gulp-concat": "^2.5.2",
+    "gulp-postcss": "^5.1.8",
+    "gulp-sass": "^2.0.1",
+    "postcss": "^4.1.11"
   }
 }
