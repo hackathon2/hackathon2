@@ -12,18 +12,18 @@ body {
   float: right; }
 
 .navbar-toggle {
-  border-color: #ddd;
-  color: #ddd; }
+  border-color: #dddddd;
+  color: #dddddd; }
 
 .visible-xs .nav > li {
-  border-bottom: 1px solid #999; }
+  border-bottom: 1px solid #999999; }
 
 .navbar-nav > li > a, .navbar-nav > a {
-  color: #ddd; }
+  color: #dddddd; }
 
 .navbar-nav a:hover, .navbar-nav a:focus, .navbar-nav a:active {
   color: #0060aa;
-  background: #333; }
+  background: #333333; }
 
 /* navbar icons
 .hidden-xs li.reserve {

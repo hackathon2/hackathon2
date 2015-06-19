@@ -1,9 +1,11 @@
+@import "../global/_variables";
+
 body {
   padding-top: 67px;
 }
 
 .navbar {
-  background-color: #0060aa;
+  background-color: $primary-color;
   padding: 5px;
   border: none;
   border-radius: 0px;
@@ -15,24 +17,24 @@ body {
 }
 
 .navbar-toggle {
-  border-color: #ddd;
-  color: #ddd;
+  border-color: $nav-background-color;
+  color: $nav-background-color;
 }
 
 .visible-xs .nav > li {
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid $nav-secondary-color;
 }
 
 .navbar-nav {
   > {
     li > a, a {
-      color: #ddd;
+      color: $nav-background-color;
     }
   }
   a {
     &:hover, &:focus, &:active {
-      color: #0060aa;
-      background: #333;
+      color: $primary-color;
+      background: $nav-background-color-alt;
     }
   }
 }
