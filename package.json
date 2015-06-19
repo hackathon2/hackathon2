@@ -19,8 +19,11 @@
     "express": "^4.12.4",
     "gulp": "^3.9.0",
     "gulp-concat": "^2.5.2",
+    "gulp-livereload": "^3.8.0",
     "gulp-postcss": "^5.1.8",
     "gulp-sass": "^2.0.1",
+    "livereload": "^0.3.7",
     "postcss": "^4.1.11"
   }
 }
+
