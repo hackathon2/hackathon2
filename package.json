@@ -1,7 +1,7 @@
 {
   "name": "Hackathon2",
   "version": "0.0.1",
-  "description": "",
+  "description": "package.json for hack2",
   "main": " ",
   "scripts": {
     "test": " "
@@ -11,10 +11,11 @@
     "url": " "
   },
   "keywords": [],
-  "author": "",
+  "author": "Nick Dozier",
   "license": " ",
   "devDependencies": {
+    "express": "^4.12.4",
     "gulp": "^3.9.0",
-    "express": "^4.12.4"
+    "gulp-sass": "^2.0.1"
   }
 }
