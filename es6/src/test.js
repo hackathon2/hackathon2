@@ -1,0 +1,1 @@
+var price = (day, rate) => { day * rate; }
