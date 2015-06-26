@@ -3,7 +3,6 @@
 var gulp = require('gulp'),
     babel = require('gulp-babel'),
     watch = require('gulp-watch'),
-    plumber = require('gulp-plumber'),
 
 path = {
     src: {
