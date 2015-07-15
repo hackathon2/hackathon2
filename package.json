@@ -15,6 +15,10 @@
   "license": " ",
   "devDependencies": {
     "gulp": "^3.9.0",
-    "express": "^4.12.4"
+    "express": "^4.12.4",
+    "gulp-sass": "~2.0.4"
+  },
+  "dependencies": {
+    "express": "~4.13.1"
   }
 }
