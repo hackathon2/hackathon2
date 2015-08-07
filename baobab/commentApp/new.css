@@ -1,0 +1,24 @@
+html{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+body{
+  text-align: left;
+  width: 500px;
+  margin: 10px auto;
+  font: 11px verdana;
+}
+input,
+textarea{
+  display: block;
+  margin: 10px;
+  width: 480px;
+}
+textarea{
+  height: 150px;
+}
+.comment{
+  padding: 1px 10px;
+  border-bottom: 1px dashed #EEE;
+}
